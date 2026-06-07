@@ -161,7 +161,22 @@ header nav a{
     margin: 0 10px;
 }
 
-header nav a:hover{
-    color: #ffd700 !important;
+header nav{
+    margin:20px 0;
 }
 
+header nav a{
+    color:#ffffff !important;
+    text-decoration:none !important;
+    font-size:18px;
+    font-weight:bold;
+    padding:0 10px;
+}
+
+header nav a:visited{
+    color:#ffffff !important;
+}
+
+header nav a:hover{
+    color:#ffd700 !important;
+}
