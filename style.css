@@ -86,5 +86,61 @@ text-align:center;
 padding:20px;
 margin-top:30px;
 }
-    
+/* Navigation Menu */
+nav{
+    margin-top:20px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-size:18px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#ffd700;
+}
+
+/* Smooth Scroll */
+html{
+    scroll-behavior:smooth;
+}
+
+/* Button Hover */
+.btn:hover{
+    background:#1e40af;
+    transform:scale(1.05);
+}
+
+/* Section Heading */
+h2{
+    font-size:36px;
+    margin-bottom:20px;
+    color:#1e293b;
+}
+
+/* Mobile Responsive */
+@media(max-width:768px){
+
+    header h1{
+        font-size:35px;
+    }
+
+    .about{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    nav a{
+        display:block;
+        margin:10px 0;
+    }
+
+    .cards{
+        flex-direction:column;
+    }
+}    
 
