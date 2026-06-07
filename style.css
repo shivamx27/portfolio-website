@@ -63,7 +63,9 @@ justify-content:center;
 gap:30px;
 flex-wrap:wrap;
 }
-
+.about div{
+max-width:600px;
+}
 .about img{
 width:220px;
 height:220px;
