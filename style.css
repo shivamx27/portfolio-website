@@ -19,11 +19,13 @@ background:linear-gradient(135deg,#2563eb,#1e40af);
 color:white;
 text-align:center;
 padding:80px 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
 }
 
 header h1{
 font-size:50px;
 margin-bottom:10px;
+    text-shadow:0 4px 10px rgba(0,0,0,0.3)
 }
 
 header p{
@@ -67,7 +69,12 @@ width:220px;
 height:220px;
 border-radius:50%;
 object-fit:cover;
-box-shadow:0 4px 15px rgba(0,0,0,0.2);
+    border:5px solid #256eb;
+box-shadow:0 10px 30px rgba(37,99,235,0.4);
+    transition:0.4s;
+}
+.about img:hover{
+    transform:scale(1.05);
 }
 
 .cards{
