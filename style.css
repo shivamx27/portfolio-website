@@ -10,7 +10,7 @@ scroll-behavior:smooth;
 }
 
 body{
-background:#f8fafc;
+background:linear-gradient(to bottom,#f8fafc,#eef4ff);
 color:#333;
 line-height:1.6;
 }
@@ -48,7 +48,8 @@ transition:0.3s;
 }
 
 nav a:hover{
-color:#ffd700;
+color:#ffffff;
+text-shadow:0 0 10px rgba(255,255,255,0.8);
 }
 
 section{
@@ -67,6 +68,11 @@ flex-wrap:wrap;
 
 .about div{
 max-width:600px;
+}
+
+.about p{
+font-size:18px;
+color:#555;
 }
 
 .about img{
@@ -103,7 +109,6 @@ transition:0.4s;
 .card:hover{
 transform:translateY(-10px) scale(1.03);
 box-shadow:0 10px 25px rgba(37,99,235,0.25);
-  rgba(37,99,235,0.25);
 }
 
 .btn{
@@ -128,6 +133,7 @@ h2{
 font-size:42px;
 margin-bottom:25px;
 color:#1e293b;
+text-align:center;
 }
 
 h2::after{
@@ -136,17 +142,17 @@ display:block;
 width:70px;
 height:4px;
 background:#2563eb;
-margin-top:8px;
+margin:10px auto;
 border-radius:10px;
 }
 
 #contact{
 text-align:center;
 background:white;
-padding:40px;
-border-radius:20px;
-box-shadow:0 5px 20px rgba(0,0,0,0.1);
-margin-top:40px;
+padding:50px;
+border-radius:25px;
+box-shadow:0 5px 25px rgba(0,0,0,0.1);
+margin-top:60px;
 }
 
 #contact p{
@@ -197,16 +203,4 @@ width:90%;
 width:220px;
 height:220px;
 }
-}
-#contact{
-background:white;
-padding:40px;
-border-radius:20px;
-box-shadow:0 5px 20px rgba(0,0,0,0.1);
-text-align:center;
-margin-top:50px;
-}
-#skills h2,
-#projects h2{
-text-align:center;
 }
