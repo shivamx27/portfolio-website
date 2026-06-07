@@ -16,7 +16,7 @@ line-height:1.6;
 }
 
 header{
-background:linear-gradient(135deg,#2563eb,#1e40af);
+background:linear-gradient(135deg,#2563eb,#1e40af,#0f172a);
 color:white;
 text-align:center;
 padding:90px 20px;
@@ -101,8 +101,9 @@ transition:0.4s;
 }
 
 .card:hover{
-transform:translateY(-10px);
-box-shadow:0 10px 25px rgba(37,99,235,0.3);
+transform:translateY(-10px) scale(1.03);
+box-shadow:0 10px 25px rgba(37,99,235,0.25);
+  rgba(37,99,235,0.25);
 }
 
 .btn{
@@ -204,4 +205,8 @@ border-radius:20px;
 box-shadow:0 5px 20px rgba(0,0,0,0.1);
 text-align:center;
 margin-top:50px;
+}
+#skills h2,
+#projects h2{
+text-align:center;
 }
