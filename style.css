@@ -143,4 +143,14 @@ h2{
         flex-direction:column;
     }
 }    
+nav a{
+    color:white !important;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#ffd700 !important;
+}
 
